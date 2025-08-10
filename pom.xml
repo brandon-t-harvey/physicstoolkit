@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>PhysicsToolkit</name>
+    <name>physicstoolkit</name>
     <url>https://github.com/mhschmieder/physicstoolkit </url>
     <description>Physics and acoustics classes for Java.</description>
 
