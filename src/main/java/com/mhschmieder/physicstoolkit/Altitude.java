@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2020, 2022 Mark Schmieder
+ * Copyright (c) 2020, 2025 Mark Schmieder
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -52,7 +52,7 @@ public enum Altitude {
     }
 
     public final String toPresentationString( final DistanceUnit distanceUnit ) {
-        final String distanceUnitString = distanceUnit.toCanonicalString();
+        final String distanceUnitString = distanceUnit.label();
 
         final int lowAltitude = ( int ) FastMath
                 .round( UnitConversion.convertDistance( PhysicsConstants.ALTITUDE_LOW_METERS,
